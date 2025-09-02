@@ -1,0 +1,131 @@
+
+
+body {
+    font-family: "Russo One", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Configura o fundo */
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: #0400ff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
+}
+
+header{
+    color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15px 0;
+}
+
+.input-field{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input .input{
+height: 45px;
+width: 87%;
+border: none;
+outline: none;
+border-radius: 30px;
+color: rgb(0, 0, 0);
+padding: 0 0 0 42px;
+background: rgba(255, 255, 255, 0.7);
+}
+
+i{
+position: relative;
+top: -31px;
+left: 17px;
+color: rgb(255, 0, 0);
+}
+
+::-webkit-input-placeholder{
+    color: rgb(0, 0, 0);
+    
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(9, 255, 0, 0.432);
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #00ff00;
+    margin-top: 10px;
+}
+
+.left{
+    display: flex;
+}
+
+label a{
+color: #1eff00;
+text-decoration: none;
+}
+
+img{
+    border-radius: 8px; /* Faz borda e arredonda imagens */
+}
+
+
+header {
+    background-color: #000000; /* Configura o fundo do menu de cima */
+    color: #fff; /* Configura a cor do texto do menu de cima */
+    text-align: center;
+    padding: 1%;
+}
+
+/*configura o botâo "back"*/
+.botao-voltar {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #050505; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado padrão */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+/* Estilos para o link de voltar ao passar o mouse */
+.botao-voltar:hover {
+    background-color: #333; /* Cor de fundo alterada ao passar o mouse */
+    color: #1eff00
+}
